@@ -1,0 +1,16 @@
+/*Este es un comentario
+Programa creado el 15/08/2018 by Paulina Sura
+*/
+
+#include<stdio.h>
+
+int main()
+{
+    
+    printf(" \n");
+    printf("\n");
+    
+    }
+    
+/*Termine de escribir el programa*/
+
