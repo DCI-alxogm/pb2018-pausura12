@@ -46,7 +46,7 @@ while(start==1){
   	break;
 /*Imprime a pantalla el caso2*/
 	case 2:
-  	printf("hola Diego, este es un programa que convierte 			temperaturas de grados centigrados a kelvin y 			farenheit\n");
+  	printf("hola Pau, este es un programa que convierte 			temperaturas de grados centigrados a kelvin y 			farenheit\n");
 	printf("¿que temperatura en C° quieres convertir? \n");
 	scanf("%f",&C);
 	F=(9/5*C)+32;
