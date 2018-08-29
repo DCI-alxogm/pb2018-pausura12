@@ -1,11 +1,15 @@
-/*Programa realizado por Paulina Sura Morales,en el cual se convierte coordenadas cartesianas a coordenadas polares y/o la temperatura de grados centigrados a grados farenheit y kelvin*/
+/*Programa creado por Paulina Sura Morales el 29 de agosto usando while*/
+
 	#include<stdio.h>
 	#include<math.h>
 int main()
 {
+int start;
 int o;
 	float d,y,r,a;
 	float C,F,K;
+start=1;
+while(start==1){
 /*Imprime a pantalla*/
 	printf("Bienvenida a tu programa Pau. ¿Qué deseas hacer: convertir coordenadascartesianas a polares o convertir temperaturas? \n");
 	printf("Teclea 1 para convertir coordenadas\n");
@@ -42,7 +46,7 @@ int o;
   	break;
 /*Imprime a pantalla el caso2*/
 	case 2:
-  	printf("hola Pau, este es un programa que convierte 			temperaturas de grados centigrados a kelvin y 			farenheit\n");
+  	printf("hola Diego, este es un programa que convierte 			temperaturas de grados centigrados a kelvin y 			farenheit\n");
 	printf("¿que temperatura en C° quieres convertir? \n");
 	scanf("%f",&C);
 	F=(9/5*C)+32;
@@ -56,5 +60,8 @@ int o;
 	printf("opcion invalida\n");
 	break;
 	}
+printf("Presiona 1 si quieres hacer otra conversion\n");
+scanf("%i",&start);
+}
 	return 0;
 }
