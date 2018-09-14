@@ -1,0 +1,6 @@
+Exponencial = 7.389056
+Logaritmo = 0.693147
+Seno = 0.034899
+Coseno = 0.999391
+Raiz = 1.414214
+
