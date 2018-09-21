@@ -8,5 +8,5 @@ Asimismo, se calculo la integral del numero utilizando el metodo del trapecio.
 nota: es importante recordar que pow sirve para elevar a una potencia cualquiera.
 
 
-Al final me gusto este ejercicio porque sirve para que te de la informacion calculada en otro archivo y la informacion se da de una forma organizada y clara segun la forma en que lo hagas. Resulta mas estetica esta forma de ver los resultados.
+Al final me gusto este ejercicio porque sirve para que dar la informacion calculada en otro archivo y la informacion se da de una forma organizada y clara segun la forma en que lo hagas. Resulta mas estetica esta forma de ver los resultados.
 
