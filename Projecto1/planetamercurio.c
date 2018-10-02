@@ -14,7 +14,7 @@ double x0,y0,z0,me,TE,h,mp,vx,vy,vz,G,r;
 float i;
 
 //CREAR ARCHIVO DE LECTURA
-datos=fopen("Mercurio.txt","r");
+datos=fopen("mercurio.txt","r");
 //TOMAR LOS DATOS QUE USAREMOS POSTERIORMENTE DE NUESTRO ARCHIVO DE LECTURA
 fscanf(datos,"%lf	%lf	%lf	%lf	%lf	%lf",&x0,&y0,&z0,&vx,&vy,&vz);//DATOS FILA 1
 fscanf(datos,"%lf	%lf	%lf	%lf",&me,&TE,&h,&mp);//DATOS FILA 2
@@ -25,7 +25,7 @@ vy*=365.242;
 vz*=365.242;
 
 //CREO ARCHIVO DE ESCRITURA
-puntos=fopen("Puntos.txt","w");
+puntos=fopen("puntos.txt","w");
 
 //ARREGLO MIS VALORES PARA CUANO TIEMPO VALE 0, i menor igual que tiempo estimado y hasta que sea igual a h
 for(i=0.0;i<=TE+h;i+=h){
