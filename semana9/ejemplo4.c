@@ -2,18 +2,18 @@
 
 #include<stdio.h> //defino librerias
 
-void cuadrado(); //defino funcion
+float cuadrado(){ //defino funcion
+	float x,x2;
+	printf("Introduce un numero: \n");
+	scanf("%f",&x);
+	x2=x*x;
+	return x2;
+	}
 int main(){
-	cuadrado();
+	float p;
+	p=cuadrado();
+	printf("El cuadrado de este numero es=  %f\n",p);
+	
 	return 0;
-
-	void cuadrado(float x);
-float x,x2;
-	printf("Introduce un numero \n"); //solicita valor
-	scanf("%f",&x); //guarda valor
-	x2=x*x; //desarrollo funcion
-	printf("El cuadrado de %f es %f \n",x,x2); //imprime resultado
- }
-float cuadrado(float h){ //defino cuadrado
-	return h*h;
-}
+	} 
+	
