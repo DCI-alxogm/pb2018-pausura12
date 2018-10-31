@@ -27,7 +27,7 @@ fscanf(temperaturas,"%f %f %f %f %f %i",&izq,&right,&up,&abajo,&e,&n);
 	   A[x]=(double*)malloc(n*sizeof(float));// formato de la matriz
 	}	
 
-	datos_obtenidos=fopen("inicial.txt","p");
+	datos_obtenidos=fopen("placaini.txt","p");
 	for(x=0;x<n;x++){
 			for(y=0;y<n;y++){ 	//creacion de dos ciclos anidados para poder realizar la matriz y obtener los valores de la placa inicial 
 
